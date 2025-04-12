@@ -1,86 +1,81 @@
-📊 Bank Loan Analysis Dashboard (Excel)
-This project presents a dynamic and visually engaging Excel Dashboard that analyzes bank loan data to provide insights into total loan applications, funded amounts, repayment statuses, interest rates, and more.
+# 📊 Bank Loan Analysis Dashboard (Excel)
 
-🚀 Project Objective
-To create an interactive dashboard using Microsoft Excel that empowers financial analysts and decision-makers to:
+This project presents a dynamic and visually engaging **Excel Dashboard** that analyzes **bank loan data** to provide insights into total loan applications, funded amounts, repayment statuses, interest rates, and more.
 
-Monitor loan performance
+---
 
-Identify good vs. bad loans
+## 🚀 Project Objective
 
-Track monthly trends
+To create an **interactive dashboard** using Microsoft Excel that empowers financial analysts and decision-makers to:
+- Monitor loan performance
+- Identify good vs. bad loans
+- Track monthly trends
+- Visualize KPIs (Key Performance Indicators)
 
-Visualize KPIs (Key Performance Indicators)
+---
 
-🧩 Dashboard Features
-Interactive Filters by Loan Grade and Loan Purpose
+## 🧩 Dashboard Features
 
-Key Metrics Display: Total Loan Applications, Funded Amounts, Amount Received
+- ✅ Interactive Filters (Loan Grade, Purpose)
+- ✅ Key Metrics: Total Applications, Funded Amount, Received Amount
+- ✅ Loan Type Split: Good vs. Bad Loans
+- ✅ Monthly Insights: MTD vs. MoM Analysis
+- ✅ Charts: Donut, Bar (Applications, Funding, Interest Rate, DTI)
+- ✅ Clean Navigation: Summary, Overview, Details
 
-Loan Performance Breakdown:
+---
 
-Good vs. Bad Loans (with % split and metrics)
+## 📁 File Structure
 
-Monthly comparisons (MTD vs. MoM)
+| Sheet Name         | Description                              |
+|--------------------|------------------------------------------|
+| `financial_loan`   | Raw data with loan records               |
+| `Design Sheet`     | Backend calculations & mapping           |
+| `Overview Dashboard` | Interactive dashboard UI               |
+| `Summary Dashboard` | KPIs & Visual summary                   |
 
-Visualizations:
+---
 
-Donut Charts (Loan Type %)
+## 🛠️ Tools & Techniques Used
 
-Bar Charts (Applications, Funding, Interest Rates, DTI)
+- **Excel Formulas**: `IF`, `SUMIFS`, `COUNTIFS`, `TEXT`, `ROUND`, etc.
+- **Visualization**: Slicers, Pivot Tables, Conditional Formatting
+- **Dynamic KPIs**:
 
-Dynamic Navigation: Summary, Overview, and Detail Views
 
-📁 File Structure
-financial_loan: Raw data sheet
+---
 
-Design Sheet: Backend formulas and mappings
+## 💼 Use Cases
 
-Overview Dashboard: User interface sheet
+- Banking & Finance Institutions
+- Risk & Credit Assessment Teams
+- Business & Financial Analysts
+- Dashboard Design Educational Projects
 
-Summary Dashboard: KPI & Visual report view
+---
 
-🛠️ Tools & Functions Used
-Excel Formulas: IF, SUMIFS, COUNTIFS, TEXT, ROUND, etc.
+## ✅ Project Outcome
 
-Dashboard Techniques: Slicers, Pivot Tables, Conditional Formatting
+A professional-grade Excel dashboard that simplifies raw loan data into meaningful, visual, and interactive reports — enhancing decision-making and analysis efficiency.
 
-Custom KPIs:
+---
 
-MoM Change
-=
-MTD
-−
-PMTD
-PMTD
-×
-100
-MoM Change= 
-PMTD
-MTD−PMTD
-​
- ×100
-📚 Learning Resources
-Leila Gharani - YouTube Excel Dashboard Tutorials
+## 📷 Dashboard Preview
 
-Advanced dashboard techniques including slicers, dynamic KPIs, and interactivity.
+> 📌 *(Insert Screenshots of your Dashboard below)*
 
-ExcelJet
+---
 
-Guide to formulas and dynamic charts.
+## 📥 How to Use
 
-Microsoft Support
+1. Download the `.xlsx` file from this repository.
+2. Open in Microsoft Excel (preferably Excel 2016 or later).
+3. Explore the dashboard using slicers and filters.
 
-Official documentation for formulas, charting, and modeling best practices.
+---
 
-📌 Use Cases
-Bank & Financial Institutions
+## 📬 Feedback
 
-Loan Risk Assessment Teams
+If you found this helpful or want to suggest improvements, feel free to open an issue or pull request. Let’s build better dashboards together!
 
-Business Analysts
-
-Educational Projects (Excel Dashboard Building)
-
-✅ Outcome
-A professional-grade Excel dashboard that simplifies complex data and delivers fast, visual, and interactive analytics for loan performance tracking and business decision-making.
+---
